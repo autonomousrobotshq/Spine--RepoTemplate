@@ -869,11 +869,20 @@ MigrationBackup/
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio
 
-bin
-obj
-*.log
+# Arduino-CI
 .bundle/*
 vendor/*
 *.dSYM/*
 Gemfile.lock
 *.cpp.bin
+# End of Arduino-CI
+
+# Generic
+obj
+bin
+build
+
+*.bin
+*.out
+*.log
+
